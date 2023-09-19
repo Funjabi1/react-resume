@@ -73,8 +73,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Ahemdabad based <strong className="text-stone-100">Full Stack Web Developer </strong>, currently looking for a position
-        to help build a better and accessible websites out there!      </p>
+        I'm an Ahemdabad based <strong className="text-stone-100">Full Stack Web Developer </strong>, 
+        currently looking for a position to help build better and accessible websites.</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me reading ,and writing and exploring new genres of music,
         and I'm always looking for new projects to work on.
