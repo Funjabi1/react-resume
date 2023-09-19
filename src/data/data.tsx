@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Karanveer Singh',
+  description: "Resume/Portfolio site built using react and tailwind css",
 };
 
 /**
@@ -69,18 +69,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Karanveer Singh`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
+        I'm a Ahemdabad based <strong className="text-stone-100">Full Stack Web Developer </strong>, currently looking for a position
+        to help build a better and accessible websites out there!      </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me reading ,and writing and exploring new genres of music,
+        and I'm always looking for new projects to work on.
       </p>
     </>
   ),
@@ -104,16 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `As a BCA graduate, I will be joining as a fresher. I have knowledge in full-stack development, which includes both front-end and back-end web development. In the front-end, I am proficient in HTML, CSS, and JavaScript, while in the back-end, I am familiar with server-side programming languages such as Java and Python. Furthermore, I have experience working with databases, including MySQL and MongoDB. I am also well-versed in various web development frameworks such as React and Node.js. With these skills, I am confident in my ability to contribute to any project I am assigned to and learn new technologies quickly. `,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Ahemdabad, Gujarat', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian 🇮🇳', Icon: FlagIcon},
+    {label: 'Interests', text: 'Philosophy, Music, Tech', Icon: SparklesIcon},
+    {label: 'Study', text: 'GLS UNIVERSITY, Faculty of Computer application', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'looking for work.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,15 +121,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 9,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Hindi',
+        level: 9,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Gujarati',
+        level: 8,
       },
     ],
   },
@@ -148,11 +143,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'Typescript',
         level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      }
     ],
   },
   {
@@ -268,42 +259,42 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2023',
+    location: 'GLS University',
+    title: 'Bachelor\'s of Computer Application',
+    content: <p>Key courses includes modern programming languages, databases, and web development, data structure and algorithms, operating systems, DBMS</p>,
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  // {
+  //   date: 'March 2003',
+  //   location: 'School of Business',
+  //   title: 'What did you study 101',
+  //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2022 - January 2023',
+    location: 'EQUIIRE CONSULTING, Chandigarh',
+    title: 'Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        I made wordpress Landing pages for the company, also while doing learning tasks of data scraping, data cleanup, data analysis, lead generation, cold calling and pitching
+
       </p>
     ),
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+  // {
+  //   date: 'March 2007 - February 2010',
+  //   location: 'Garage Startup Studio',
+  //   title: 'Junior bug fixer',
+  //   content: (
+  //     <p>
+  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
+  //       anything else that would be useful for an employer to know.
+  //     </p>
+  //   ),
+  // },
 ];
 
 /**
@@ -314,17 +305,17 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      text: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nibh. Quisque cursus, metus vitae pharetra sagittis, quam turpis adipiscing lorem, vitae mattis nibh ligula nec',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      text: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nibh. Quisque cursus, metus vitae pharetra sagittis, quam turpis adipiscing lorem, vitae mattis nibh ligula nec',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      text: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nibh. Quisque cursus, metus vitae pharetra sagittis, quam turpis adipiscing lorem, vitae mattis nibh ligula nec',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -336,27 +327,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'you can reach out to me anytime',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'karansingh.26898@gmail.com',
+      href: 'mailto:karansingh.26898@gmail.com',
     },
     {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      type: ContactType.LinkedIn,
+      text: 'Karan Singh',
+      href: 'https://www.linkedin.com/in/karan-singh-8b5621197/',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Funjabi1',
+      href: 'https://github.com/Funjabi1',
     },
   ],
 };
@@ -365,9 +356,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Funjabi1'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/karan-singh-8b5621197/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/funjabi8'},
 ];
