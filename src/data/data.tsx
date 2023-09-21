@@ -13,6 +13,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
+import WhatsappIcon from '../components/Icon/WhatsappIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -76,8 +77,7 @@ export const heroData: Hero = {
         I'm an Ahemdabad based <strong className="text-stone-100">Full Stack Web Developer </strong>, 
         currently looking for a position to help build better and accessible websites.</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me reading ,and writing and exploring new genres of music,
-        and I'm always looking for new projects to work on.
+      I'm always looking for new opportunities to learn and grow.
       </p>
     </>
   ),
@@ -262,7 +262,9 @@ export const education: TimelineItem[] = [
     date: 'April 2023',
     location: 'GLS University',
     title: 'Bachelor\'s of Computer Application',
-    content: <p>Key courses includes modern programming languages, databases, and web development, data structure and algorithms, operating systems, DBMS</p>,
+    content: <p>Key courses: Modern programming languages, Databases, Web Development, Data structure and algorithms, Operating systems and DBMS.
+
+    </p>,
   },
   // {
   //   date: 'March 2003',
@@ -279,8 +281,7 @@ export const experience: TimelineItem[] = [
     title: 'Intern',
     content: (
       <p>
-        I made wordpress Landing pages for the company, also while doing learning tasks of data scraping, data cleanup, data analysis, lead generation, cold calling and pitching
-
+       I made WordPress Landing pages for the company along with other tasks like Data scraping, Data cleanup, Data analysis, Lead generation, Cold calling and Pitching.
       </p>
     ),
   },
@@ -327,7 +328,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'you can reach out to me anytime',
+  description: '',
   items: [
     {
       type: ContactType.Email,
@@ -349,6 +350,16 @@ export const contact: ContactSection = {
       text: 'Funjabi1',
       href: 'https://github.com/Funjabi1',
     },
+    {
+      type: ContactType.Twitter,
+      text: '@funjabi8',
+      href: 'https://twitter.com/funjabi8',
+    },
+    // {
+    //   type: ContactType.Whatsapp,
+    //   text: '+91 701 6919219',
+    //   href: 'https://wa.me/917016919219',
+    // }
   ],
 };
 
@@ -360,4 +371,5 @@ export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/karan-singh-8b5621197/'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/funjabi8'},
+  {label: 'Whatsapp', Icon: WhatsappIcon, href: 'https://wa.me/917016919219'}
 ];
