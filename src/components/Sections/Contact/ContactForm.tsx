@@ -35,9 +35,18 @@ const ContactForm: FC = memo(() => {
       /**
        * This is a good starting point to wire up your form submission logic
        * */
+      await fetch('/api/contact', {
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'POST',
+      });
+      setData(defaultData);
+      
       console.log('Data to send: ', data);
     },
-    [data],
+    [data, defaultData],
   );
 
   const inputClasses =
